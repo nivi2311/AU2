@@ -54,11 +54,4 @@ public class Robi {
 
     }
 
-    private void bodenSensorWerteAusgeben() {
-        for (int i = 2; i < 16; i++) {
-            System.out.print(robi.readSensor(i) + " ");
-        }
-        System.out.println();
-    }
-
 }
